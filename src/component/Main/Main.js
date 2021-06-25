@@ -1,11 +1,21 @@
 import React from "react";
 import "./Main.css";
+import coffee from "../../images/coffee.png";
+import coffeevid from "../../images/coffee-pour.mp4";
+import { Parallax } from "react-parallax";
 
 function Main() {
   return (
-    <h1 className="main" id="main">
-      MAIN
-    </h1>
+    <div className="component-block">
+      <video
+        className="coffeeimage"
+        src={coffeevid}
+        alt="coffee"
+        autoPlay
+        muted
+        loop
+      />
+    </div>
   );
 }
 

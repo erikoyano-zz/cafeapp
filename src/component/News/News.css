@@ -1,0 +1,22 @@
+.title-block {
+  padding: 2rem;
+  display: block !important;
+  background: transparent;
+  height: auto;
+}
+
+.title-block > h1 {
+  display: block !important;
+}
+
+.component-block {
+  text-align: center;
+}
+.content-block {
+  padding: 0 4rem 3rem 4rem;
+  background: #fff;
+}
+.list {
+  text-align: left;
+  padding-top: 1rem;
+}

@@ -1,4 +1,60 @@
-.gallery {
-  background: pink;
-  height: 300px;
+#gallery {
+  background: rgb(224, 199, 167);
+  align-content: center;
 }
+
+.ant-row {
+  display: flex !important;
+}
+.item {
+  margin: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+img {
+  width: 180px;
+  height: 180px;
+  transition: transform 500ms ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
+/* 
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: flex-end;
+  width: 46%;
+  border: 3px solid purple;
+  float: right;
+} */
+
+/* .gallery-text {
+  border: 3px solid red;
+  width: 50%;
+  float: left;
+  display: inline-block !important;
+} */
+
+.content-wrapper {
+  display: flex;
+}
+.content-wrapper > .gallery-container {
+  float: right;
+  justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  border: solid 3px red;
+  margin: 4rem;
+}
+.content-wrapper > .gallery-text {
+  flex: 1 1 auto;
+  align-items: center !important;
+  margin: 2rem;
+}
+
+/* .gallery-block {
+  margin: 4rem;
+} */

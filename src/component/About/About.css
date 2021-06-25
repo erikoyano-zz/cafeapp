@@ -1,4 +1,24 @@
-.about {
-  background: rgb(175, 175, 255);
-  height: 300px;
+.edamame {
+  object-fit: cover;
+  width: 50%;
+  opacity: 88%;
+  justify-content: left;
+}
+
+.about-content {
+  display: flex;
+  height: 100vh;
+  flex-wrap: nowrap;
+}
+
+.text-container {
+  justify-content: right;
+  width: 50%;
+  text-align: center;
+  border: 3px solid red;
+  padding: 200px 0;
+  margin: 3rem;
+}
+.text-container > p {
+  margin: 4rem;
 }

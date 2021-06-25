@@ -56,7 +56,7 @@ function Navbar() {
               duration={1000}
               className="nav-links"
             >
-              Footer
+              Access
             </Link>
           </li>
         </ul>

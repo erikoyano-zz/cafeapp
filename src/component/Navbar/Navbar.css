@@ -1,15 +1,22 @@
 .navbar {
-  background: rgb(150, 245, 216);
+  background: transparent;
   height: 100px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  position: fixed;
   top: 10px;
   z-index: 999;
   width: 100%;
+}
+
+.coffeeimage {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar-container {
