@@ -39,22 +39,37 @@ img:hover {
 
 .content-wrapper {
   display: flex;
+  justify-content: space-evenly;
 }
 .content-wrapper > .gallery-container {
   float: right;
-  justify-content: flex-end;
   display: flex;
   flex-wrap: wrap;
   width: 40%;
   border: solid 3px red;
+  justify-content: center;
   margin: 4rem;
 }
 .content-wrapper > .gallery-text {
-  flex: 1 1 auto;
   align-items: center !important;
   margin: 2rem;
+  border: 3px solid purple;
+  display: flex;
+  justify-content: center;
+  width: 40%;
 }
 
-/* .gallery-block {
-  margin: 4rem;
-} */
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    flex-wrap: wrap;
+  }
+  .content-wrapper > .gallery-container {
+    flex: 1 1 auto;
+  }
+}
+
+@media screen and (max-width: 425) {
+  .content-wrapper {
+    flex-wrap: wrap;
+  }
+}

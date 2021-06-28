@@ -19,7 +19,7 @@ function Gallery() {
         GALLERY
       </h1>
       <div className="content-wrapper">
-        <h1 className="gallery-text"> VISIT US on INSTA</h1>
+        <div className="gallery-text"> VISIT US on INSTA</div>
         <div className="gallery-container">
           <img className="item" src={image1} />
 
