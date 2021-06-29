@@ -7,3 +7,17 @@ video {
   left: 0;
   z-index: -9;
 }
+
+/* @media (min-aspect-ratio: 16/9) {
+  video {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+} */
+
+@media screen and (max-width: 425px) {
+  video {
+    min-width: auto;
+  }
+}

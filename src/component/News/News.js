@@ -1,5 +1,6 @@
 import React from "react";
 import "./News.css";
+import { TwitterTweetEmbed, TwitterTimelineEmbed } from "react-twitter-embed";
 
 function About() {
   return (
@@ -8,12 +9,15 @@ function About() {
         News
       </h1>
       <div className="content-block">
-        6/21〜7/11までの期間中の酒類提供は東京都のガイドラインに沿い、酒類をご注文のお客様におかれましては:
-        <li className="list">同グループ２人以内での利用</li>
-        <li className="list"> 提供時間は11時〜19時まで</li>
-        <li className="list">
-          利用者の滞在時間９０分以内 とさせていただきます。
-        </li>
+        <div className="twitter-container">
+          <TwitterTimelineEmbed
+            sourceType="profile"
+            // The preferred screen name goes next:
+            screenName="OrganicLScafe"
+            // Style options goes here:
+            options={{ height: 400, width: 800, id: 2 }}
+          />
+        </div>
       </div>
     </div>
   );

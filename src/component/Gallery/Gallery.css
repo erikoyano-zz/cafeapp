@@ -68,8 +68,15 @@ img:hover {
   }
 }
 
-@media screen and (max-width: 425) {
+@media screen and (max-width: 425px) {
   .content-wrapper {
     flex-wrap: wrap;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .content-wrapper > .gallery-container {
+    margin: 2rem;
   }
 }

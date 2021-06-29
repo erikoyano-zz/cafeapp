@@ -13,10 +13,21 @@
   text-align: center;
 }
 .content-block {
-  padding: 0 4rem 3rem 4rem;
+  padding: 2em;
   background: #fff;
+  align-content: center;
 }
-.list {
-  text-align: left;
-  padding-top: 1rem;
+
+.content-block > p {
+  font-size: 80% !important;
+}
+
+.twitter-container {
+  margin: 0 3rem;
+}
+
+@media screen and (max-width: 425px) {
+  #news {
+    margin: 0.5rem;
+  }
 }
