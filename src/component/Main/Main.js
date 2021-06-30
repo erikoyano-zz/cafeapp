@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import coffee from "../../images/coffee.png";
-import coffeevid from "../../images/coffee-pour.mp4";
+import coffeevid from "../../images/croppedcoffee.mov";
 import { Parallax } from "react-parallax";
 
 function Main() {

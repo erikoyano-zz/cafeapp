@@ -10,13 +10,17 @@
   margin: 5px;
   cursor: pointer;
   overflow: hidden;
-}
-img {
   width: 180px;
   height: 180px;
   transition: transform 500ms ease;
 }
-img:hover {
+
+/* .item > img {
+  width: 180px;
+  height: 180px;
+  transition: transform 500ms ease;
+} */
+.item:hover {
   transform: scale(1.1);
 }
 /* 

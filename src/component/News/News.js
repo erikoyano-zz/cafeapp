@@ -1,6 +1,6 @@
 import React from "react";
 import "./News.css";
-import { TwitterTweetEmbed, TwitterTimelineEmbed } from "react-twitter-embed";
+import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 function About() {
   return (
