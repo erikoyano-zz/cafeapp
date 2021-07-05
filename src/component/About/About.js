@@ -10,8 +10,8 @@ function About() {
       <div className="component-block" id="about">
         <h1 className="title-block">ABOUT</h1>
 
+        <img className="about-image" src={pancake} />
         <div className="about-content">
-          <img className="about-image" src={pancake} />
           <div>
             <Parallax
               className="about-image"
