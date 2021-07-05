@@ -1,3 +1,28 @@
 .background-cafe {
-  height: 80vh;
+  height: 100vh;
+}
+.map-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.map {
+  width: 500px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.map-description {
+  /*  border: 3px solid red; */
+  margin-right: 1rem;
+
+  text-align: left;
+  background: rgba(201, 201, 201, 0.74);
+}
+
+.map-text {
+  height: 100px;
+  width: 300px;
+  margin: 2rem;
 }

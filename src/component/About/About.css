@@ -1,33 +1,45 @@
-.edamame {
-  object-fit: cover;
-  width: 10%;
-  height: 100%;
-  opacity: 88%;
-  /* justify-content: left; */
-  flex-grow: 1;
+#about {
+  background: #8c9fa7;
 }
 
 .about-content {
   display: flex;
   flex-wrap: wrap;
-  border: 3px solid yellow;
   height: auto;
+  /* border: 3px solid yellow; */
+  justify-content: center;
 }
 
 .break {
   flex-basis: 100%;
   height: 0;
-  border: 3px solid green;
+  /* border: 3px solid green; */
+}
+.about-image {
+  object-fit: cover;
+  width: 500px;
+  height: 600px;
+  opacity: 88%;
+
+  /* border: 3px solid green; */
+  /* justify-content: left; */
+  /* flex-grow: 1; */
 }
 
 .text-container {
-  width: 20%;
+  width: 26%;
   text-align: center;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 
-  /* height: 400px; */
-  padding: 100px 0;
-  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-grow: 1; */
+}
+.text-container > p {
+  margin: 40px;
 }
 
 @media screen and (max-width: 768px) {

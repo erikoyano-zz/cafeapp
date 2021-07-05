@@ -14,25 +14,17 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About</h2>
-            <a href="/">About</a>
+            <h2>LS CAFE</h2>
+            <h3>Address</h3>
+            <p>adfasdfadfasd</p>
+            <h3>Hours:</h3>
+            <p>Mon-Fri 9:00 ~ 20:00</p>
+            <h3>Contact:</h3>
+            <p>080-1234-1234</p>
           </div>
+
           <div className="footer-link-items">
-            <h2>Services</h2>
-            <a href="/">Service 1</a>
-            <a href="/">Service 2</a>
-            <a href="/">Service 3</a>
-            <a href="/">Service 4</a>
-          </div>
-          <div className="footer-link-items">
-            <h2>Case Study</h2>
-            <a href="/">Case Study 1</a>
-            <a href="/">Case Study 2</a>
-            <a href="/">Case Study 3</a>
-            <a href="/">Case Study 4</a>
-          </div>
-          <div className="footer-link-items">
-            <h2>Connect with Us</h2>
+            <h2>Follow</h2>
             <a href="/">Instagram</a>
             <a href="/">Facebook</a>
             <a href="/">Youtube</a>

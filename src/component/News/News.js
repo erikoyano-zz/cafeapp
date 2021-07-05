@@ -15,7 +15,7 @@ function About() {
             // The preferred screen name goes next:
             screenName="OrganicLScafe"
             // Style options goes here:
-            options={{ height: 400, width: 800, id: 2 }}
+            options={{ height: 200, width: 400, id: 2, tweetLimit: 1 }}
           />
         </div>
       </div>
