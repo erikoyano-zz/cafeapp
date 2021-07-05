@@ -25,6 +25,7 @@ function Gallery() {
           <img className="item" src={image1} />
 
           <img className="item" src={image2} />
+          <img className="item-large" src={image5} />
 
           <div className="break" />
 
@@ -37,7 +38,7 @@ function Gallery() {
           <img className="item" src={image7} />
 
           <img className="item-large" src={image9} />
-
+          <div className="break" />
           <img className="item" src={image10} />
           <img className="item-large" src={image4} />
         </div>

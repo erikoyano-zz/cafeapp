@@ -1,8 +1,6 @@
 import React from "react";
 import "./About.css";
-import edamame from "../../images/edamame.jpeg";
 import pancake from "../../images/pancake.jpg";
-import coffee from "../../images/coffee.png";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
 
