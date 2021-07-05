@@ -87,3 +87,9 @@
     font-size: 300%;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .gallery-text {
+    font-size: 200%;
+  }
+}
