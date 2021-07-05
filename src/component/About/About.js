@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import pancake from "../../images/insta-like.png";
+import pancake from "../../images/pancake-small.jpg";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
 
@@ -11,7 +11,7 @@ function About() {
         <h1 className="title-block">ABOUT</h1>
 
         <div className="about-content">
-          <img className="about-image" src={pancake} />
+          {/* <img className="about-image" src={pancake} /> */}
           <Parallax
             className="about-image"
             bgImage={pancake}
