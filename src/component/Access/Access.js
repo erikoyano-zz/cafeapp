@@ -1,7 +1,7 @@
 import React from "react";
 import "./Access.css";
 import { Parallax } from "react-parallax";
-import food from "../../images/food.jpg";
+import food from "../../images/food2.jpg";
 import map from "../../images/map.png";
 
 function Access() {
