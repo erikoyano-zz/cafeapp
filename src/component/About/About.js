@@ -8,9 +8,9 @@ function About() {
   return (
     <>
       <div className="component-block" id="about">
+        <img className="about-image" src={pancake} />
         <h1 className="title-block">ABOUT</h1>
 
-        <img className="about-image" src={pancake} />
         <div className="about-content">
           <div>
             <Parallax
