@@ -11,6 +11,7 @@ function About() {
         <h1 className="title-block">ABOUT</h1>
 
         <div className="about-content">
+          <img className="about-image" src={pancake} />
           <Parallax
             className="about-image"
             bgImage={pancake}
@@ -28,7 +29,6 @@ function About() {
                 vel nisl in ipsum sodales elementum. Mauris tempus ligula non
                 diam aliquet, ac condimentum mi feugiat.
               </p>
-              <img src={pancake} />
             </Fade>
           </div>
         </div>
