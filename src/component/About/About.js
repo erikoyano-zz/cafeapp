@@ -11,13 +11,15 @@ function About() {
         <h1 className="title-block">ABOUT</h1>
 
         <div className="about-content">
-          {/* <img className="about-image" src={pancake} /> */}
-          <Parallax
-            className="about-image"
-            bgImage={pancake}
-            bgImageStyle={{ top: "-20%" }}
-            strength={100}
-          />
+          <img className="about-image" src={pancake} />
+          <div>
+            <Parallax
+              className="about-image"
+              bgImage={pancake}
+              bgImageStyle={{ top: "-20%" }}
+              strength={100}
+            />
+          </div>
 
           <div className="text-container">
             <Fade top duration={2000}>

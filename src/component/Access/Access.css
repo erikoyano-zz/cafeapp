@@ -1,7 +1,12 @@
-.background-cafe {
-  /* height: 80vh; */
+#access {
+  /* background-color: #8c9fa7; */
   padding-bottom: 4rem;
 }
+
+/* .background-cafe {
+  /* height: 80vh; */
+/* padding-bottom: 4rem; */
+
 .map-container {
   display: flex;
   flex-wrap: wrap;
