@@ -26,6 +26,8 @@ function Gallery() {
 
           <img className="item" src={image2} />
 
+          <div className="break" />
+
           <img className="item-large" src={image3} />
 
           <img className="item" src={image8} />

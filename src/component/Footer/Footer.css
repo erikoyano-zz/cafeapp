@@ -127,7 +127,7 @@
 @media only screen and (max-width: 425px) {
   .footer-container {
     width: 100%;
-    margin-top: -300px;
+    /* margin-top: -300px; */
   }
 
   .footer-link-wrapper {

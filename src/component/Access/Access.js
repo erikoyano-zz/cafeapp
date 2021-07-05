@@ -10,7 +10,7 @@ function Access() {
       <Parallax
         className="background-cafe"
         bgImage={food}
-        bgImageStyle={{ top: "-20%" }}
+        // bgImageStyle={{ top: "-10%" }}
         style={{ opacity: "80%" }}
       >
         <div className="component-block" id="access">
@@ -18,15 +18,15 @@ function Access() {
           <div className="map-container">
             <div className="map-description">
               <div className="map-text">
-                <h1>LOCATION</h1>
+                <h2>LOCATION</h2>
                 <p>東京都江東区白河</p>
               </div>
               <div className="map-text">
-                <h1>HOURS</h1>
+                <h2>HOURS</h2>
                 <p>Mon-Fri 9:00am ~ 8:00pm</p>
               </div>
               <div className="map-text">
-                <h1>CONTACT</h1>
+                <h2>CONTACT</h2>
                 <p>tel: 080-1234-1234</p>
               </div>
             </div>

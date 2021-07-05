@@ -1,5 +1,6 @@
 .background-cafe {
-  height: 100vh;
+  /* height: 80vh; */
+  padding-bottom: 4rem;
 }
 .map-container {
   display: flex;
@@ -8,21 +9,43 @@
 }
 
 .map {
-  width: 500px;
-  height: 450px;
+  width: 45%;
   object-fit: cover;
 }
 
 .map-description {
   /*  border: 3px solid red; */
   margin-right: 1rem;
-
   text-align: left;
   background: rgba(201, 201, 201, 0.74);
 }
 
 .map-text {
-  height: 100px;
   width: 300px;
-  margin: 2rem;
+  margin-left: 2rem;
+}
+
+.map-text > p {
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .map-description {
+    width: 50%;
+    font-size: 80%;
+  }
+
+  .map {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .map-description {
+    width: 80%;
+  }
+  .map {
+    padding-top: 20px;
+    width: 80%;
+  }
 }

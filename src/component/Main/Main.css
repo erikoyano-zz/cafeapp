@@ -16,6 +16,12 @@ video {
   }
 } */
 
+@media screen and(max-width: 768px) {
+  video {
+    float: right;
+  }
+}
+
 @media screen and (max-width: 425px) {
   video {
     min-width: auto;
