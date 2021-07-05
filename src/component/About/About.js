@@ -17,6 +17,7 @@ function About() {
             bgImageStyle={{ top: "-20%" }}
             strength={100}
           />
+          <img src={pancake} />
           <div className="text-container">
             <Fade top duration={2000}>
               <h1 className="content1">
