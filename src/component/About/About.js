@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import pancake from "../../images/pancake-small.jpg";
+import pancake from "../../images/insta-like.png";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
 
