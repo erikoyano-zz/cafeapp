@@ -11,7 +11,7 @@ function About() {
         <h1 className="title-block">ABOUT</h1>
 
         <div className="about-content">
-          {/* <img className="about-image" src={pancake} /> */}
+          <img className="about-image" src={pancake} />
           <Parallax
             className="about-image"
             bgImage={pancake}
