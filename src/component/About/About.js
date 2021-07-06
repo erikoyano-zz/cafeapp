@@ -9,14 +9,13 @@ function About() {
   return (
     <>
       <div className="component-block" id="about">
-        <img className="about-image" src={pancake} />
         <h1 className="title-block">ABOUT</h1>
         <img src={insta} />
 
         <div className="about-content">
           <div>
             <Parallax
-              className="about-image"
+              className="pancake-pic"
               bgImage={pancake}
               bgImageStyle={{ top: "-20%" }}
               strength={100}
