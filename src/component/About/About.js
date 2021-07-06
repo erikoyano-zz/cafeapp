@@ -10,7 +10,6 @@ function About() {
     <>
       <div className="component-block" id="about">
         <h1 className="title-block">ABOUT</h1>
-        <img src={insta} />
 
         <div className="about-content">
           <div>
