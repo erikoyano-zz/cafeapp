@@ -3,6 +3,7 @@ import "./About.css";
 import pancake from "../../images/pancake-small.jpg";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
+import insta from "../../images/insta-like.png";
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
       <div className="component-block" id="about">
         <img className="about-image" src={pancake} />
         <h1 className="title-block">ABOUT</h1>
+        <img src={insta} />
 
         <div className="about-content">
           <div>
