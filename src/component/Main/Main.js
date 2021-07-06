@@ -5,7 +5,7 @@ import { Parallax } from "react-parallax";
 
 function Main() {
   return (
-    <div className="component-block">
+    <div className="video-container">
       <video
         className="coffeeimage"
         src={coffeevid}

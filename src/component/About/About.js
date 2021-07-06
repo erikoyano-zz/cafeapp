@@ -16,7 +16,7 @@ function About() {
             <Parallax
               className="pancake-pic"
               bgImage={pancake}
-              bgImageStyle={{ top: "-20%" }}
+              // bgImageStyle={{ top: "-20%" }}
               strength={100}
             />
           </div>

@@ -50,7 +50,7 @@
     font-size: 80%;
     width: 100%;
   }
-  .about-image {
+  .pancake-pic {
     width: 300px;
   }
 }
@@ -67,5 +67,16 @@
   .text-container {
     margin: 0;
     height: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .pancake-pic {
+    width: 200px;
+    height: 200px;
+  }
+  .text-container {
+    margin: 0 2rem;
+    font-size: 80%;
   }
 }
