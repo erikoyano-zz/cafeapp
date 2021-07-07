@@ -24,13 +24,13 @@ video {
   border: 3px solid yellow;
 }
 
-@media (min-aspect-ratio: 16/9) {
+/* @media (min-aspect-ratio: 16/9) {
   video {
     width: 100%;
     height: auto;
     min-width: 0;
   }
-}
+} */
 
 @media screen and(max-width: 768px) {
   video {
@@ -43,6 +43,7 @@ video {
   video {
     min-width: auto;
     height: 80vh;
-    object-fit: cover;
+    transform: translate(-50%, -50%);
+    left: 80%;
   }
 }

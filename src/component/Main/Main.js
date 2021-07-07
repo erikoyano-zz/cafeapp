@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.css";
-import coffeevid from "../../images/coffee2.gif";
+import coffeevid from "../../images/coffee2.mp4";
 import { Parallax } from "react-parallax";
 
 function Main() {
