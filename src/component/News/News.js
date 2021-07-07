@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="component-block">
       <h1 className="title-block" id="news">
-        News
+        NEWS
       </h1>
       <div className="content-block">
         <div className="twitter-container">

@@ -50,6 +50,20 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
+              to="news"
+              activeClass="active"
+              offset={-110}
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              News
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
               to="about"
               offset={-110}
               activeClass="active"

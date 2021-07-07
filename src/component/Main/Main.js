@@ -6,7 +6,7 @@ import { Parallax } from "react-parallax";
 
 function Main() {
   return (
-    <div className="video-container">
+    <div className="video-container" id="main">
       {/* <video autoPlay muted loop className="coffeeimage">
         <source src={coffeevid} type="video/mp4" />
       </video> */}
