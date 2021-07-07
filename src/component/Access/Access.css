@@ -1,5 +1,5 @@
 #access {
-  background-color: #d1d9d8;
+  background-color: #86b4da;
   padding-bottom: 4rem;
 }
 
@@ -22,7 +22,7 @@
   /*  border: 3px solid red; */
   margin-right: 1rem;
   text-align: left;
-  background: rgba(201, 201, 201, 0.74);
+  background: rgb(134, 180, 217, 0.74);
 }
 
 .map-text {
