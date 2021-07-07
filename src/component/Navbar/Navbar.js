@@ -29,6 +29,7 @@ function Navbar() {
         {/* <a href="/" className="navbar-logo">
           <img className="navbar-logo" alt="logo" src={logo}></img>
         </a> */}
+
         <div className="menu-icon" onClick={handleClick}>
           {click ? <GoX /> : <GoThreeBars />}
         </div>
@@ -42,6 +43,7 @@ function Navbar() {
               smooth={true}
               duration={1000}
               className="nav-links"
+              onClick={closeMobileMenu}
             >
               Home
             </Link>
@@ -55,6 +57,7 @@ function Navbar() {
               smooth={true}
               duration={1000}
               className="nav-links"
+              onClick={closeMobileMenu}
             >
               About
             </Link>
@@ -68,6 +71,7 @@ function Navbar() {
               smooth={true}
               duration={1000}
               className="nav-links"
+              onClick={closeMobileMenu}
             >
               Gallery
             </Link>
@@ -81,6 +85,7 @@ function Navbar() {
               smooth={true}
               duration={1000}
               className="nav-links"
+              onClick={closeMobileMenu}
             >
               Access
             </Link>

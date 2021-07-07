@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "M PLUS 1p", sans-serif;
 }
 
 code {
@@ -17,4 +18,5 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0;
+  font-family: "M PLUS 1p", sans-serif;
 }
